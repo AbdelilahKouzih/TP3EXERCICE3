@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP3EXERCICE3
 {
-    internal class Point
+    public class Point
     {
        public  double x;
        public double y;
