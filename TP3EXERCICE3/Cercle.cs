@@ -68,5 +68,13 @@ namespace TP3EXERCICE3
             return c.rayon*2*PI;
         }
 
+        public double AireCercle(Cercle c)
+        {
+
+
+
+            return c.rayon * c.rayon * PI;
+        }
+
     }
 }
