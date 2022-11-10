@@ -10,7 +10,7 @@ namespace TP3EXERCICE3
     {
         Point centre;
         double rayon;
-
+        public const double PI = 3.1415926535897931;
 
         public Cercle() { }
 
@@ -51,6 +51,22 @@ namespace TP3EXERCICE3
 
         }
 
+        public bool egalite( Cercle c)
+        {
+
+
+            return this.centre.Egalite(c.centre) && this.rayon== c.rayon;
+
+        }
+
+
+        public double circonference(Cercle c)
+        {
+
+
+           
+            return c.rayon*2*PI;
+        }
 
     }
 }
